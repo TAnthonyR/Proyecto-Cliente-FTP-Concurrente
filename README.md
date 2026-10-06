@@ -1,4 +1,4 @@
-# Cliente FTP concurrente en C
+# Proyecto — Cliente FTP concurrente en C
 
 Proyecto académico de Computación Distribuida. Implementa un cliente FTP mediante sockets POSIX y utiliza procesos hijos con `fork()` para transferencias múltiples. Permite observar la diferencia entre comunicación de control, comunicación de datos y ejecución concurrente.
 
@@ -28,8 +28,8 @@ Proyecto académico de Computación Distribuida. Implementa un cliente FTP media
 Linux o un entorno POSIX compatible, GCC, Make y un servidor FTP de laboratorio. En Windows utiliza una distribución Linux mediante WSL; el código no utiliza Winsock.
 
 ```bash
-git clone https://github.com/TAnthonyR/ReinosoA-clienteFTP.git
-cd ReinosoA-clienteFTP
+git clone https://github.com/TAnthonyR/Proyecto-Cliente-FTP-Concurrente.git
+cd Proyecto-Cliente-FTP-Concurrente
 make -f Makefile-ClienteFTP
 ./clienteftp_RA 127.0.0.1 21
 ```
